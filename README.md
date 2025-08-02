@@ -1,6 +1,14 @@
 # deepcli
 Asistente de desarrollo por terminal en español usando deepseek
 
+# Install
+
+```bash
+git clone https://github.com/nchgroup/deepcli
+cd deepcli
+go build -ldflags="-w -s -buildid=" -trimpath
+```
+
 # Help
 
 ```
