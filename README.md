@@ -6,7 +6,8 @@ Asistente de desarrollo por terminal en español usando deepseek
 ```
 $ ./deepcli -h
 
-deepcli - Asistente de desarrollo por terminal en español usando DeepSeek
+deepcli - Asistente de desarrollo por terminal en español usando DeepSeek,
+programado por NCH con <3 para la comunidad.
 
 Uso básico:
   ./deepcli -i "<consulta>" [opciones]
@@ -71,5 +72,6 @@ Sugerencias:
   • Combina con jq para procesar JSON: -raw | jq '.choices[0]...'
   • Usa --temperature 1.2 para brainstorming creativo
   • El contexto máximo es 128K tokens
+
 
 ```
